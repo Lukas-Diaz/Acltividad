@@ -1,0 +1,50 @@
+.cajita {
+    background-color: pink;
+    padding: 0px 20px 30px 40px;
+    border: 1px solid;
+    margin: 12px;
+    border-radius: 8px;
+    user-select: none;
+    animation-duration: 3s;
+}
+
+
+.cajita:hover{
+    
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+    padding: 5px 100px;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    background-color: red;
+    animation-name: example;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.text_center {
+    text-align: right;
+}
+
+.text_parraf {
+    text-align: center;
+}
+
+.cajita2 {
+    background-color: orange;
+}
+
+
+
+
+
